@@ -1,0 +1,14 @@
+@import "./_vars.scss";
+
+header {
+
+    position: fixed;
+    padding: .4rem;
+
+    h1 {
+        font-size: 3rem;
+        -webkit-text-stroke: 1px $default-color;
+        // color: #f7f7f7;
+        color: transparent;
+    }
+}
