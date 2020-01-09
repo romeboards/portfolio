@@ -61,7 +61,7 @@ const IndexPage = () => (
         Currently, I'm seeking collaborative projects with individuals and
         groups working in journalism, organizing, advocacy, and civic tech.{" "}
         <a href="mailto:sayheytodan@gmail.com" target="_blank">
-          Let's scheme <span>&#10153;&#xFE0E;</span>
+          Let's talk &nbsp;<span>&#10153;&#xFE0E;</span>
         </a>
       </p>
       <div className="this-way" title="nooo don't click, just scroll!">

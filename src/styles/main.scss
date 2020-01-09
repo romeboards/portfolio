@@ -226,8 +226,8 @@ section.lists {
 
 section.big-sky {
 
-    .gatsby-image-wrapper {
-
+    a {
+        display: block;
         max-width: 75vw;
         @include for-tablet-portrait-up {
             max-width: 60vw;
@@ -244,7 +244,7 @@ section.big-sky {
     // padding: 1rem;
 
     position: relative;
-    top: 3.5rem;
+    top: 3rem;
     // margin-top: 2.5rem;
 
     @keyframes down {

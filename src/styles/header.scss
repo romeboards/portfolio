@@ -36,7 +36,7 @@ header {
 
         @include for-phone-only {
             width: 110%;
-            right: .5em;
+            right: .8em;
         }
         @include for-tablet-portrait-up {         
             top: 0;
