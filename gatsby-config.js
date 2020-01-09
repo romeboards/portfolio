@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Daniel Kass – Portfolio`,
-    description: `This is the description for my portfolio site.`,
+    title: `Dan Kass`,
+    description: `Hello! I'm Dan Kass, an interdisciplinary coder, designer, and progressive
+        advocate.`,
     author: `@dananalog`,
   },
   plugins: [
@@ -18,8 +19,8 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "fonts",
-        path: `${__dirname}/src/fonts/`
-      }
+        path: `${__dirname}/src/fonts/`,
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

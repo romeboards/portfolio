@@ -2,13 +2,59 @@
 
 header {
 
-    position: fixed;
-    padding: .4rem;
+    position: absolute;
+    padding: 1rem;
+    // z-index: 1000;
+
+    @include for-tablet-portrait-up {
+        padding: 2rem;
+    }
 
     h1 {
-        font-size: 3rem;
+        position: fixed;
+        
+        font-size: 2rem;
+        font-weight: bold;
         -webkit-text-stroke: 1px $default-color;
         // color: #f7f7f7;
         color: transparent;
+        letter-spacing: .05rem;
     }
+
+    .links {
+
+        @include for-phone-only {
+            margin-top: 3.5rem;
+        }
+        @include for-tablet-portrait-up {
+            position: fixed;
+            top: 0;
+            right: 2rem;
+
+            transform: rotate(90deg) translate(100%);
+            transform-origin: top right;
+            
+            .btn-primary {
+                transform: rotate(-90deg) translate(0, -100%);
+                transform-origin: top right;
+            }
+        }
+
+ 
+        .btn {
+            line-height: 1rem;
+            height: 1.6rem;
+            border-radius: 0;
+            margin-right: .5rem;
+            margin-bottom: .5rem;
+            padding-left: .5rem;
+            padding-right: .5rem;
+
+            &:not(.btn-primary) {
+                background-color: transparent;
+            }
+        }
+    }
+
+
 }

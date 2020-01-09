@@ -1,0 +1,49 @@
+---
+  press:
+    - title: Bad Landlord? These Coders Are Here to Help
+      outlet: The New York Times
+      url: https://www.nytimes.com/2018/12/04/nyregion/nyc-landlord-database-who-owns-what.html
+    - title: "Using Tech for Housing Justice: The JustFix.nyc Story"
+      outlet: Civicist
+      url: https://civichall.org/civicist/using-tech-for-housing-justice-the-justfix-nyc-story/
+    - title: NYCHA Hires Private 'Slumlord' to Run Public Housing
+      outlet: WNYC
+      url: https://www.wnyc.org/story/nycha-hires-private-slumlord-public-housing/
+    - title: Interactive Map Tracks Evictions & The Landlords Who File For Them
+      outlet: Gothamist
+      url: https://gothamist.com/news/interactive-map-tracks-nyc-evictions-the-landlords-who-file-for-them
+    - title: Legal tech is opening the system to those who need representation the most
+      outlet: TechCrunch
+      url: https://techcrunch.com/2018/03/13/legal-tech-is-opening-the-system-to-those-who-need-legal-representation-the-most/
+    - title: Track every NYC apartment eviction on this interactive map
+      outlet: Curbed NY
+      url: https://ny.curbed.com/2017/9/25/16361572/rent-stabilization-map-crown-heights-bushwick
+    - title: Tenant advocates release list of ‘worst’ evictors in the city
+      outlet: AM New York
+      url: https://amny.com/real-estate/tenant-advocates-release-list-of-worst-evictors-in-the-city/
+    - title: The Start-ups Making NYC a Better City
+      outlet: New York Magazine
+      url: http://nymag.com/intelligencer/2018/04/wework-start-ups-improving-new-york-city-life.html
+    - title: Have A Deadbeat Landlord? Now There Are Tech Tools To Help You Fight Them
+      outlet: Fast Company
+      url: https://www.fastcompany.com/3053096/have-a-deadbeat-landlord-now-there-are-tech-tools-to-help-you-fight-them
+    - title: A Web App for Renters’ Rights
+      outlet: Nonprofit Quarterly
+      url: https://nonprofitquarterly.org/web-app-renters-rights/
+  confs:
+    - title: "Technology Promise: Serving the Public Good Through Emerging Technologies."
+      conf: C.U.N.Y. Conference on Emerging Technologies and Social Justice
+    - title: "Making Legal Technologies Used and Useful: Expanding Access to Civil Justice"
+      conf: World Justice Forum @ The Hague, Netherlands
+    - title: Data in the Movement
+      conf: Assoc. of Neighborhood and Housing Annual Conference 2019
+    - title: Equitable Data Practices for Housing Justice
+      conf: Hindsight Conference 2018
+    - title: Fighting Tenant Harassment with Open Data
+      conf: N.Y.C. School of Data 2018 
+    - title: "Innovative Approaches to Housing Justice Advocacy"
+      conf: New York Law School Access to Justice Conference
+    - title: Investigating Your Landlord 101
+      conf: PA'LANTE Harlem - Annual Housing Conference 
+    - title: U.S. Conference of Mayors Civic I/O
+      conf: South by Southwest (SXSW) 2017 
