@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-import "../styles/Header.scss"
+import "../styles/header.scss"
 
 const Button = (props) => (
   <a 
