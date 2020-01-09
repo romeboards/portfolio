@@ -50,7 +50,7 @@ html,body {
 }
 
 section {
-    padding: 3rem 0;
+    padding: 3rem 2rem 3rem 0;
 
     @include for-tablet-portrait-up {
         padding: 5rem 0;
@@ -84,8 +84,10 @@ h3 {
     font-size: .8rem;
     text-transform: uppercase;
     font-style: italic;
+    font-weight: bold;
+    letter-spacing: .05em;
     margin-bottom: 0.2rem;
-    color: darken($default-color, 15%);        
+    color: lighten($default-color, 10%);        
 }
 
 p {
@@ -96,16 +98,12 @@ p {
 
 section.hero {
 
-    padding-top: 10rem;
+    padding-top: 6rem;
 
     @include for-tablet-landscape-up  {
         padding-top: 8rem;
         width: 75vw;
     }
-
-    // min-height: 90vh;
-
-    
     
     p {
         font-size: 1rem;
@@ -118,10 +116,9 @@ section.projects {
     .projects--list {
 
         column-width: 15em;
-        // column-rule: 1px solid $default-color;
-        // column-gap: 1.25rem;
         column-gap: 3rem;
-
+        // column-rule: 1px solid $default-color;
+        
         article.project {
 
             margin-bottom: 2rem;
@@ -132,8 +129,6 @@ section.projects {
                 flex-direction: column;
 
                 p {
-                    // font-family: $serif;
-                    -webkit-column-break-inside : avoid;
 
                     @include for-phone-only {
                         order: 1;
@@ -160,7 +155,9 @@ section.projects {
                     margin-bottom: .5rem;
                 }
                 .gif-image, .gatsby-image-wrapper {
-                     @include for-phone-only {
+
+                    margin-top: .5rem;
+                    @include for-phone-only {
                         margin-bottom: .2rem;
                     }                   
                 }
@@ -200,7 +197,6 @@ section.lists {
 
             &:first-child {
                 padding-right: 1rem;
-                // border-right: 1px solid $default-color;
                 margin-right: 2rem;
             }
         }
@@ -246,7 +242,10 @@ section.big-sky {
     // position: fixed;
     // right: 0; bottom: 0;
     // padding: 1rem;
-    margin-top: 2.5rem;
+
+    position: relative;
+    top: 3.5rem;
+    // margin-top: 2.5rem;
 
     @keyframes down {
         0% { transform: translateY(-15px); }
@@ -278,11 +277,14 @@ footer {
         text-align: center;
 
         ul {
-            list-style-type: none;
             display: inline-block;
+            margin-top: 0;
+            margin-bottom: 0;
+            list-style-type: none;      
 
             li {
                 display: inline-block;
+                margin-top: 0;
                 margin-right: .5rem;
             }
         }

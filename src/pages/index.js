@@ -60,13 +60,12 @@ const IndexPage = () => (
       <p>
         Currently, I'm seeking collaborative projects with individuals and
         groups working in journalism, organizing, advocacy, and civic tech.{" "}
-        <a>
+        <a href="mailto:sayheytodan@gmail.com" target="_blank">
           Let's scheme <span>&#10153;&#xFE0E;</span>
         </a>
       </p>
       <div className="this-way" title="nooo don't click, just scroll!">
         <span>&#10154;&#xFE0E;</span>
-        {/* <span>&#8681;&#xFE0E;</span> */}
       </div>
     </section>
 
@@ -106,6 +105,9 @@ const IndexPage = () => (
             </div>
           </article>
         ))}
+      </div>
+      <div className="this-way" title="nooo don't click, just scroll!">
+        <span>&#10154;&#xFE0E;</span>
       </div>
     </section>
 

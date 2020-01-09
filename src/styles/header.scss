@@ -7,7 +7,7 @@ header {
     // z-index: 1000;
 
     @include for-tablet-portrait-up {
-        padding: 2rem;
+        padding: 1rem 2rem;
     }
 
     h1 {
@@ -23,17 +23,25 @@ header {
 
     .links {
 
+        // @include for-phone-only {
+        //     margin-top: 3.5rem;
+        // }
+
+        position: fixed;
+        z-index: 1000;
+
+        transform: rotate(90deg) translate(100%);
+        transform-origin: top right;
+
+
         @include for-phone-only {
-            margin-top: 3.5rem;
+            width: 110%;
+            right: .5em;
         }
-        @include for-tablet-portrait-up {
-            position: fixed;
+        @include for-tablet-portrait-up {         
             top: 0;
             right: 2rem;
 
-            transform: rotate(90deg) translate(100%);
-            transform-origin: top right;
-            
             .btn-primary {
                 transform: rotate(-90deg) translate(0, -100%);
                 transform-origin: top right;
