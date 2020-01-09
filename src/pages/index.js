@@ -34,15 +34,27 @@ const IndexPage = () => (
         thousands of New Yorkers as well as brought critical transparency to
         real estate industry practices. For this work, I was named on the Forbes
         “30 Under 30” list in the law & policy category. I also serve on the{" "}
-        <a>Open Data Advisory Council</a> for the City of New York, the steering
-        committee for the <a>Housing Data Coalition</a>, and the Emerging
-        Leaders Council for the <a>Legal Services Corporation</a>.
+        <a href="https://opendata.cityofnewyork.us/" target="_blank">
+          Open Data Advisory Council
+        </a>{" "}
+        for the City of New York, the steering committee for the{" "}
+        <a href="https://www.housingdatanyc.org/" target="_blank">
+          Housing Data Coalition
+        </a>
+        , and the Emerging Leaders Council for the{" "}
+        <a href="https://www.lsc.gov/" target="_blank">
+          Legal Services Corporation
+        </a>
+        .
       </p>
       <p>
         I have extensive experience in the digital industry and have produced
         high-end digital projects for clients such as Spotify, NPR, and the Bill
         & Melinda Gates Foundation. I have a B.S. in Computer Science from Tufts
-        University and was an Engineering Fellow in the <a>Blue Ridge Labs</a>{" "}
+        University and was an Engineering Fellow in the{" "}
+        <a href="https://labs.robinhood.org/" target="_blank">
+          Blue Ridge Labs
+        </a>{" "}
         fellowship program.
       </p>
       <p>
