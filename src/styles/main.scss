@@ -22,14 +22,10 @@
 // Utility classes
 @import "~spectre.css/src/utilities";
 
-// $serif: 'New York Large', 'Times New Roman', Times, serif;
-// $serif: 'Times NR Condensed', 'Times New Roman', Times, serif;
-
-
-html,body {
-    // background-color: #FBFBEF;  
-    // background-color: #f7f7f7;
-}
+// html,body {
+//     // background-color: #FBFBEF;  
+//     // background-color: #f7f7f7;
+// }
 
 ::selection {
     background-color: blue;
@@ -47,11 +43,11 @@ html,body {
 
 section {
     position: relative;
-    padding: 3rem 2rem 3rem 0;
+    padding: 5rem 2rem 5rem 0;
 
-    @include for-tablet-portrait-up {
-        padding: 5rem 0;
-    }
+    // @include for-tablet-portrait-up {
+    //     padding: 5rem 0;
+    // }
 
     h2 {
         font-size: 1.2rem;
@@ -68,7 +64,7 @@ section {
 
         @keyframes down {
             0% { transform: translateY(15px) rotate(90deg); }
-            50% { transform: translateY(0) rotate(90deg); }
+            50% { transform: translateY(0px) rotate(90deg); }
             100% { transform: translateY(15px) rotate(90deg); }
         }
 

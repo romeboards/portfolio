@@ -60,7 +60,7 @@ const IndexPage = () => (
         Currently, I'm seeking collaborative data & storytelling projects with individuals and
         groups working in journalism, organizing, advocacy, and civic tech.{" "}
         <a href="mailto:sayheytodan@gmail.com" target="_blank" rel="noopener noreferrer">
-          Let's talk &nbsp;<span>&#10153;&#xFE0E;</span>
+          Let's talk <span>&#10153;&#xFE0E;</span>
         </a>
       </p>
     </section>
