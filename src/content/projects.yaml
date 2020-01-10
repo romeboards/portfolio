@@ -4,40 +4,40 @@
       date: "2018"
       image: whoownswhat.gif
       url: http://whoownswhat.nyc
-      tags: "concept, design, data, full-stack"
+      tags: "concept, mapping, dataviz, full-stack, design, user research"
       content: |
         Developed in close coordination with tenant organizers, Who Owns What exposes LLC shell company networks and provides easy access to building info for tenants, organizers, lawyers, journalists, & policymakers. It currently operates as the de facto database for N.Y.C.'s tenant movement.
     - title: Repairs Web-App + Advocate Dashboard
       date: "2017"
       image: justfixnyc.jpg
       url: https://www.justfix.nyc
-      tags: "concept, full-stack, design"
+      tags: "concept, full-stack, design, mapping, user research"
       content: |
         The main product of JustFix.nyc, this mobile-first tool helps tenants fight landlord harassment and disrepair by streamlining issue reporting, sending legal notices to landlords, and connecting with advocates. The Advocate Dashboard provides an easy case management complement for a wide range of community groups and legal nonprofits. The platform has been designed for deep accessibility through years of user testing and feedback, and is now integrated with the N.Y.C. Housing Court system. 
     - title: Eviction Free NYC
       date: "2018"
       image: efnyc.gif
       url: https://evictionfreenyc.org
-      tags: "concept, data, full-stack"
+      tags: "concept, data, full-stack, accessibility"
       content: |
         Right To Counsel is a new law in N.Y.C. that guarantees legal representation to tenants facing eviction. Together with the Right To Counsel coalition, we developed Eviction Free NYC in order to help tenants navigate the eviction process and connect with organizers & lawyers. Its built on top of the Contentful CMS and kept up-to-date by the Right to Counsel Coalition. Since 2018, over 15,000 tenants have used the site to fight their eviction and get assistance.  
     - title: JustFix.nyc SMS tools
       date: "2018"
       image: textbot.gif
       url: https://www.justfix.nyc
-      tags: "concept, design, full-stack"
+      tags: "concept, design, full-stack, user research"
       content: |
         Driven by user research and feedback, we developed SMS versions of our tools in order to reach new users and further lower the barrier to entry for our services. Our "rent history textbot" simplifies the process of getting your apartment's rent history sent by the N.Y.S. Dept. of Community Renewal from hours to minutes. Try it out: text "rent history" to (646) 783-0627.
     - title: "Localore: Finding America"
       image: findingamerica.png
       url: https://www.localore.org/
-      tags: "front-end, concept"
+      tags: "front-end, concept, multimedia"
       content: |
         Localore is "an independent public media production that unfolds over time." Together with the Association of Independents in Radio and NPR, the "Finding America" storytelling platform was built to host the work of embedded journalists and local producers across the country. It compiles hundreds of real-time social media feeds to paint a portrait of unique, diverse, and modern American narratives.
     - title: "Spotify Character Match sites"
       image: starwars.gif
       url: https://www.spotify.com
-      tags: "full-stack, design"
+      tags: "full-stack, design, animation"
       content: |
         Working with Spotify, these sites were built to coincide with major media events such as Star Wars, Stranger Things, and the Country Music Awards. After giving your permission, the site would analyze your Spotify listening habits to determine which character you were most aligned with. I was the tech lead and main developer overseeing three global rollouts with a collective 7m+ site visitors. 
     

@@ -35,6 +35,9 @@
     - title: Have A Deadbeat Landlord? Now There Are Tech Tools To Help You Fight Them
       outlet: Fast Company
       url: https://www.fastcompany.com/3053096/have-a-deadbeat-landlord-now-there-are-tech-tools-to-help-you-fight-them
+    - title: Building Eviction Free NYC with GatsbyJS + Contentful
+      outlet: GatsbyJS Blog
+      url: https://www.gatsbyjs.org/blog/2018-04-27-building-eviction-free-nyc-with-gatsbyjs-and-contentful/
     - title: A Web App for Renters’ Rights
       outlet: Nonprofit Quarterly
       url: https://nonprofitquarterly.org/web-app-renters-rights/
@@ -44,7 +47,7 @@
     - title: "Making Legal Technologies Used and Useful: Expanding Access to Civil Justice"
       conf: World Justice Forum @ The Hague, Netherlands
     - title: Data in the Housing Movement
-      conf: Assoc. of Neighborhood and Housing Annual Conference 2019
+      conf: Assoc. for Neighborhood and Housing Development Annual Conference 2019
     - title: Equitable Data Practices for Housing Justice
       conf: Hindsight Conference 2018
     - title: Fighting Tenant Harassment with Open Data

@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-// import SvgText from "../components/svgtext"
 import PosterImage from "../components/posterimage"
 import SEO from "../components/seo"
 
@@ -26,23 +24,24 @@ const IndexPage = () => (
       <p>
         For the past five years, I served as a co-founder and Executive Director
         at{" "}
-        <a href="https://www.justfix.nyc" target="_blank">
+        <a href="https://www.justfix.nyc" target="_blank" rel="noopener noreferrer">
           JustFix.nyc
         </a>
         , a tech nonprofit that supports tenants and organizers fighting
-        displacement and neglectful housing in N.Y.C. We’ve successfully served
-        thousands of New Yorkers as well as brought critical transparency to
-        real estate industry practices. For this work, I was named on the Forbes
-        “30 Under 30” list in the law & policy category. I also serve on the{" "}
-        <a href="https://opendata.cityofnewyork.us/" target="_blank">
+        displacement and neglectful housing in N.Y.C. Working with an incredible
+        and dedicated team, we successfully served thousands of New Yorkers and
+        brought transparency to real estate industry practices. For this work, I
+        was named on the Forbes “30 Under 30” list in the law & policy category.
+        I also serve on the{" "}
+        <a href="https://opendata.cityofnewyork.us/" target="_blank" rel="noopener noreferrer">
           Open Data Advisory Council
         </a>{" "}
         for the City of New York, the steering committee for the{" "}
-        <a href="https://www.housingdatanyc.org/" target="_blank">
+        <a href="https://www.housingdatanyc.org/" target="_blank" rel="noopener noreferrer">
           Housing Data Coalition
         </a>
         , and the Emerging Leaders Council for the{" "}
-        <a href="https://www.lsc.gov/" target="_blank">
+        <a href="https://www.lsc.gov/" target="_blank" rel="noopener noreferrer">
           Legal Services Corporation
         </a>
         .
@@ -52,45 +51,37 @@ const IndexPage = () => (
         high-end digital projects for clients such as Spotify, NPR, and the Bill
         & Melinda Gates Foundation. I have a B.S. in Computer Science from Tufts
         University and was an Engineering Fellow in the{" "}
-        <a href="https://labs.robinhood.org/" target="_blank">
+        <a href="https://labs.robinhood.org/" target="_blank" rel="noopener noreferrer">
           Blue Ridge Labs
         </a>{" "}
         fellowship program.
       </p>
       <p>
-        Currently, I'm seeking collaborative projects with individuals and
+        Currently, I'm seeking collaborative data & storytelling projects with individuals and
         groups working in journalism, organizing, advocacy, and civic tech.{" "}
-        <a href="mailto:sayheytodan@gmail.com" target="_blank">
+        <a href="mailto:sayheytodan@gmail.com" target="_blank" rel="noopener noreferrer">
           Let's talk &nbsp;<span>&#10153;&#xFE0E;</span>
         </a>
       </p>
-      <div className="this-way" title="nooo don't click, just scroll!">
-        <span>&#10154;&#xFE0E;</span>
-      </div>
     </section>
 
     <section className="projects">
       <div className="projects--list">
         {projectsData.projects.map((proj, idx) => (
           <article className="project" key={idx}>
-            <h3>
-              {proj.title}
-              {/* <span>{proj.date}</span> */}
-            </h3>
-            {/* <h4>{proj.tags}</h4> */}
-
+            <h3>{proj.title}</h3>
             <div className="project--content">
               <p>
                 {proj.content} <em>({proj.tags})</em>
                 &nbsp;&nbsp;
                 {proj.url && (
-                  <a href={proj.url} target="_blank">
-                    {proj.url} &#x219D;&#xFE0E;
+                  <a href={proj.url} target="_blank" rel="noopener noreferrer">
+                    {proj.url} &#x27AD;&#xFE0E;
                   </a>
                 )}
               </p>
               {proj.image && (
-                <a className="project--image" href={proj.url} target="_blank">
+                <a className="project--image" href={proj.url} target="_blank" rel="noopener noreferrer">
                   <img
                     src={require(`../images/${proj.image}`)}
                     alt={proj.title}
@@ -101,25 +92,8 @@ const IndexPage = () => (
           </article>
         ))}
       </div>
-      <div className="this-way" title="nooo don't click, just scroll!">
-        <span>&#10154;&#xFE0E;</span>
-      </div>
     </section>
-
-    {/* <section className="project-ideas">
-      <ul>
-        {listsData.projects.map((idea, idx) => (
-          <li key={idx}>
-            <h2>{idea}</h2>
-          </li>
-        ))}
-      </ul>
-      <div className="this-way" title="nooo don't click, just scroll!">
-        <span>&#10154;&#xFE0E;</span>
-      </div>
-    </section> */}
-
-    <section className="lists">
+    <section className="lists no-arrow">
       <div>
         <h3>In the news</h3>
         <ul>
@@ -127,8 +101,8 @@ const IndexPage = () => (
             <li key={idx}>
               {story.title}
               {"   "}
-              <a href={story.url} target="_blank">
-                {story.outlet} &#x219D;&#xFE0E;
+              <a href={story.url} target="_blank" rel="noopener noreferrer">
+                {story.outlet} &#x27AD;&#xFE0E;
               </a>
             </li>
           ))}
@@ -146,15 +120,12 @@ const IndexPage = () => (
           ))}
         </ul>
       </div>
-      {/* <div className="this-way" title="nooo don't click, just scroll!">
-        <span>&#10154;&#xFE0E;</span>
-      </div> */}
     </section>
 
-    <section className="big-sky">
+    <section className="big-sky no-arrow">
       <a
         href="https://www.curbed.com/2015/9/2/9924926/hans-haacke-photography-slumlord"
-        target="_blank"
+        target="_blank" rel="noopener noreferrer"
       >
         <PosterImage />
       </a>
@@ -165,29 +136,29 @@ const IndexPage = () => (
         &copy; Dan Kass, 2020
         <ul>
           <li>
-            <a href="mailto:sayheytodan@gmail.com" target="_blank">
+            <a href="mailto:sayheytodan@gmail.com" target="_blank" rel="noopener noreferrer">
               Email
             </a>
           </li>
           <li>
-            <a href="" target="_blank">
+            <a href="" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/dananalog" target="_blank">
+            <a href="https://twitter.com/dananalog" target="_blank" rel="noopener noreferrer">
               Twitter
             </a>
           </li>
           <li>
-            <a href="https://github.com/romeboards" target="_blank">
+            <a href="https://github.com/romeboards" target="_blank" rel="noopener noreferrer">
               Github
             </a>
           </li>
           <li>
             <a
               href="https://www.linkedin.com/in/dan-kass-1734b444/"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               Linkedin
             </a>

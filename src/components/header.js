@@ -3,14 +3,16 @@ import React from "react"
 
 import "../styles/header.scss"
 
-const Button = (props) => (
-  <a 
+const Button = props => (
+  <a
     href={props.to}
-    className={ props.primary ? `btn btn-primary`: `btn`}
-    target="_blank">
-      {props.label}
+    className={props.primary ? `btn btn-primary` : `btn`}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {props.label}
   </a>
-);
+)
 
 const Header = ({ siteTitle }) => (
   <header>

@@ -1,6 +1,6 @@
-$base-font-family: 'Alte Haas Grotesk', sans-serif;
-// $base-font-family: 'Times NR Condensed', 'Times New Roman', Times, serif;
-// $base-font-family: 
+$sans-serif: 'Alte Haas Grotesk', 'Arial', Arial, sans-serif;
+$serif: 'Times New Roman', Times, serif;
+$base-font-family: $sans-serif;
 
 $font-size: 0.8rem;
 $layout-spacing: 2rem;
@@ -8,9 +8,7 @@ $layout-spacing: 2rem;
 
 $primary-color: blue;
 $link-color: blue;
-// $default-color: $body-font-color;
 $default-color: #3b4351;
-
 
 
 @mixin for-phone-only {
