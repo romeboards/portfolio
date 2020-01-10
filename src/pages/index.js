@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import DynamicImage from "../components/dynamicimage"
+import SvgText from "../components/svgtext"
 import PosterImage from "../components/posterimage"
 import SEO from "../components/seo"
 
@@ -90,16 +90,11 @@ const IndexPage = () => (
                 )}
               </p>
               {proj.image && (
-                <a href={proj.url} target="_blank">
-                  {proj.image.includes(".gif") ? (
-                    <img
-                      className="gif-image"
-                      src={require(`../images/${proj.image}`)}
-                      alt={proj.title}
-                    />
-                  ) : (
-                    <DynamicImage filename={proj.image} />
-                  )}
+                <a className="project--image" href={proj.url} target="_blank">
+                  <img
+                    src={require(`../images/${proj.image}`)}
+                    alt={proj.title}
+                  />
                 </a>
               )}
             </div>
@@ -110,6 +105,19 @@ const IndexPage = () => (
         <span>&#10154;&#xFE0E;</span>
       </div>
     </section>
+
+    {/* <section className="project-ideas">
+      <ul>
+        {listsData.projects.map((idea, idx) => (
+          <li key={idx}>
+            <h2>{idea}</h2>
+          </li>
+        ))}
+      </ul>
+      <div className="this-way" title="nooo don't click, just scroll!">
+        <span>&#10154;&#xFE0E;</span>
+      </div>
+    </section> */}
 
     <section className="lists">
       <div>
@@ -138,6 +146,9 @@ const IndexPage = () => (
           ))}
         </ul>
       </div>
+      {/* <div className="this-way" title="nooo don't click, just scroll!">
+        <span>&#10154;&#xFE0E;</span>
+      </div> */}
     </section>
 
     <section className="big-sky">

@@ -6,7 +6,7 @@
       url: http://whoownswhat.nyc
       tags: "concept, design, data, full-stack"
       content: |
-        Developed in close coordination with tenant organizers, Who Owns What exposes property ownership networks and provides easy access to building info for tenants, organizers, lawyers, journalists, & policymakers. It has thousands of active users and currently operates as the de facto database for N.Y.C.'s tenant movement.
+        Developed in close coordination with tenant organizers, Who Owns What exposes LLC shell company networks and provides easy access to building info for tenants, organizers, lawyers, journalists, & policymakers. It currently operates as the de facto database for N.Y.C.'s tenant movement.
     - title: Repairs Web-App + Advocate Dashboard
       date: "2017"
       image: justfixnyc.jpg
@@ -20,14 +20,14 @@
       url: https://evictionfreenyc.org
       tags: "concept, data, full-stack"
       content: |
-        Right To Counsel is a new law in N.Y.C. that guarantees legal representation to tenants facing eviction. Together with the RTC coalition, we created Eviction Free NYC to help tenants navigate the eviction process and connect with organizers & lawyers. Since 2018, over 15,000 tenants have used the site to fight their eviction and get assistance.  
+        Right To Counsel is a new law in N.Y.C. that guarantees legal representation to tenants facing eviction. Together with the Right To Counsel coalition, we developed Eviction Free NYC in order to help tenants navigate the eviction process and connect with organizers & lawyers. Its built on top of the Contentful CMS and kept up-to-date by the Right to Counsel Coalition. Since 2018, over 15,000 tenants have used the site to fight their eviction and get assistance.  
     - title: JustFix.nyc SMS tools
       date: "2018"
       image: textbot.gif
       url: https://www.justfix.nyc
       tags: "concept, design, full-stack"
       content: |
-        Through user research and testing, we identified the opportunity to develop SMS versions of our tools in order to reach new users and further lower the barrier to entry for our services. Our "rent history textbot" simplifies the process of getting your apartment's rent history from the N.Y.S. Dept. of Community Renewal from hours to minutes. Try it out: text "rent history" to (646) 783-0627.
+        Driven by user research and feedback, we developed SMS versions of our tools in order to reach new users and further lower the barrier to entry for our services. Our "rent history textbot" simplifies the process of getting your apartment's rent history sent by the N.Y.S. Dept. of Community Renewal from hours to minutes. Try it out: text "rent history" to (646) 783-0627.
     - title: "Localore: Finding America"
       image: findingamerica.png
       url: https://www.localore.org/

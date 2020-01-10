@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Dan Kass`,
-    description: `Hello! I'm Dan Kass, an interdisciplinary coder, designer, and progressive
-        advocate.`,
+    description: `Hello! I'm Dan Kass, an interdisciplinary coder, designer, and progressive advocate.`,
     author: `@dananalog`,
   },
   plugins: [
@@ -23,16 +22,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Libre Baskerville`,
-          },
-        ],
-      },
-    },
-  ],
+    `gatsby-plugin-sharp`
+  ]
 }
