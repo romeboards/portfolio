@@ -121,7 +121,7 @@ section.projects {
 
         column-width: 15em;
         column-gap: 2.5rem;
-        // column-rule: 1px solid $default-color;
+        column-rule: 1px dotted $default-color;
         
         article.project {
 
@@ -129,16 +129,16 @@ section.projects {
 
             .project--content {
 
-                @include for-phone-only {
-                    display: flex;
-                    flex-direction: column;
-                }
+                // @include for-phone-only {
+                //     display: flex;
+                //     flex-direction: column;
+                // }
 
                 p {
 
-                    @include for-phone-only {
-                        order: 1;
-                    }
+                    // @include for-phone-only {
+                    //     order: 1;
+                    // }
 
                     font-size: .75rem;
                     line-height: 1.3;
@@ -159,6 +159,7 @@ section.projects {
                     }
 
                     margin-bottom: .5rem;
+                    margin-bottom: 2rem;
                 }
 
                 .project--image {
