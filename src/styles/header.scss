@@ -34,12 +34,12 @@ header {
 
 
         @include for-phone-only {
-            width: 110%;
+            width: 125%;
             right: .8em;
         }
         @include for-tablet-portrait-up {         
             top: 0;
-            right: 2rem;
+            right: 1.5rem;
 
             .btn-primary {
                 transform: rotate(-90deg) translate(0, -100%);
