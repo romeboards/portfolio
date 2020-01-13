@@ -39,7 +39,7 @@ header {
         }
         @include for-tablet-portrait-up {         
             top: 0;
-            right: 1.5rem;
+            right: 1rem;
 
             .btn-primary {
                 transform: rotate(-90deg) translate(0, -100%);
