@@ -6,7 +6,7 @@
       url: http://whoownswhat.nyc
       tags: "concept, mapping, dataviz, full-stack, design, user research"
       content: |
-        Developed in close coordination with tenant organizers, Who Owns What exposes LLC shell company networks and provides easy access to building info for tenants, organizers, lawyers, journalists, & policymakers. It currently operates as the de facto database for N.Y.C.'s tenant movement.
+        Developed in close coordination with tenant organizers, Who Owns What exposes LLC shell company networks and provides easy access to building info for tenants, organizers, lawyers, journalists, & policymakers. It aligns disparate data sources from several city and state agencies to provide info on over 200,000 N.Y.C. buildings, and currently operates as the de facto database for N.Y.C.'s tenant movement.
     - title: Repairs Web-App + Advocate Dashboard
       date: "2017"
       image: justfixnyc.jpg

@@ -9,7 +9,7 @@ import listsData from "../content/lists.yaml";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Portfolio" />
     <section className="hero">
       <p>
         Hello! I’m an interdisciplinary coder, designer, and progressive
@@ -178,7 +178,11 @@ const IndexPage = () => (
             </a>
           </li>
           <li>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="/Daniel Kass - Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Resume
             </a>
           </li>
