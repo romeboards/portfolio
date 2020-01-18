@@ -4,7 +4,7 @@ module.exports = {
     url: `https://www.danielkass.site`,
     description: `Hello! This is the portfolio site of Dan Kass, an interdisciplinary coder, designer, and progressive advocate.`,
     author: `@dananalog`,
-    image: `images/social.jpg`
+    image: `social.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
