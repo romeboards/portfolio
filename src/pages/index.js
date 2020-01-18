@@ -9,7 +9,7 @@ import listsData from "../content/lists.yaml";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Portfolio" />
+    <SEO />
     <section className="hero">
       <p>
         Hello! I’m an interdisciplinary coder, designer, and progressive
