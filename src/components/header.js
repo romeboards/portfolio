@@ -16,7 +16,7 @@ const Button = props => (
 
 const Header = ({ siteTitle }) => (
   <header>
-    <h1>Daniel Kass</h1>
+    <h1>Dan Kass</h1>
 
     <div className="links">
       <Button primary to="mailto:sayheytodan@gmail.com" label="Email" />

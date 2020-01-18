@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Dan Kass`,
-    description: `Hello! I'm Dan Kass, an interdisciplinary coder, designer, and progressive advocate.`,
+    title: `Dan Kass –– Portfolio`,
+    url: `https://www.danielkass.site`,
+    description: `Hello! This is the portfolio site of Dan Kass, an interdisciplinary coder, designer, and progressive advocate.`,
     author: `@dananalog`,
+    image: `images/social.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -10,7 +12,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Dam Kass –– Portfolio",
-        short_name: "Dam Kass –– Portfolio",
+        short_name: "Dan Kass –– Portfolio",
         start_url: "/",
         background_color: "#6b37bf",
         theme_color: "#6b37bf",
